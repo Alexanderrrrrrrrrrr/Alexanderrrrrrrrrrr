@@ -1,0 +1,338 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    background: #E5E5E5;
+
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+.container {
+    max-width: 1346px;
+    margin: 0 auto;
+}
+
+/* начало секции header*/
+.header__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__list-item-link {
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 20px;
+    color: #263238;
+}
+
+.header__list-item {
+    display: flex;
+    gap: 20px;
+}
+
+.header__list-button {
+    border: 2px solid #263238;
+    border-radius: 5px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 24px;
+    padding: 17px 35px;
+    background-color: #E5E5E5;
+    ;
+}
+
+/* начало секции main-baner*/
+
+.main-baner__list {
+    display: flex;
+    gap: 57px;
+}
+
+.main-baner__list-item-title {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 80px;
+}
+
+.main-baner__list-item-block {
+    display: flex;
+    gap: 38px;
+}
+
+.main-baner__list-item-text {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #8F95A5;
+}
+
+.main-baner__list-item-button {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    color: #FFFFFF;
+    padding: 32px 117px;
+    background: #263238;
+    border-radius: 15px;
+}
+
+.main-baner__list-item {
+    max-width: 632px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.main-baner__list-item-img {
+    width: 100%;
+    align-self: flex-end;
+    transform: translateY(45px);
+}
+
+.main-baner__list-item-block-image {
+    transform: translateY(20px);
+}
+
+/* начало секции skills*/
+.Skills-title {
+    display: flex;
+    font-weight: 600;
+    font-size: 48px;
+    justify-content: center;
+    padding: 147px 0 96px;
+}
+
+.skills__list-item {
+    background: #F5F5F5;
+    border-radius: 10px;
+    padding: 35px 43px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Skills-button {
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #263238;
+    border-radius: 5px;
+    padding: 15px 0;
+    max-width: 218px;
+    border: 0;
+}
+
+.skills__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.skills__list-item-text {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.Speaking {
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+}
+
+.Listening {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+/* начало секции about us*/
+
+.about-us-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us-list-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about-us-list-item-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us-list-item-block-item-number {
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.about-us-list-item-block-item-text {
+    font-weight: 400;
+    font-size: 20px;
+    color: #8F95A5;
+}
+
+.About-Us-title {
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.about-us-list-item-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #8F95A5;
+    max-width: 635px;
+}
+
+.About-Us {
+    margin: 257px 0 188px 0;
+}
+
+/* начало секции Pricing*/
+.Pricing__title {
+    font-weight: 600;
+    font-size: 48px;
+    color: #000000;
+    text-align: center;
+    padding-bottom: 83px;
+
+}
+
+.Pricing__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Pricing__list-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 420px;
+}
+
+.Pricing__list-item-title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+    color: #263238;
+}
+
+.Pricing__list-item-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #8F95A5;
+    max-width: 635px;
+}
+
+.Pricing__list-item-prise-money {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    color: #263238;
+}
+
+.Pricing__list-item-prise-time {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #546269;
+}
+
+.Pricing__list-item-prise {
+    display: flex;
+    background: #EEEEEE;
+    border-radius: 5px;
+    align-items: center;
+    max-width: 240px;
+    justify-content: space-around;
+}
+
+.Pricing__list-item-image {
+    max-height: 311px;
+}
+
+/* начало секции Pricing*/
+.Contact-us-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Contact-Us {
+    margin: 268px 0 133px;
+}
+
+.Contact-us-list-item-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    color: #000000;
+}
+
+.Contact-us-list-item-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #8F95A5;
+}
+
+.form {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8F95A5;
+    background: #E5E5E5;
+    padding:30px 250px 30px 30px;
+
+}
+.form::placeholder {
+    color: red;
+}
+.form-button {
+    font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+color: #FFFFFF;
+background: #263238;
+border-radius: 10px;
+padding: 25px 81px;
+}
+.Contact-us-list-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* начало секции footer*/
+.footer__list {
+    border-top: 1px solid #C4C4C4;
+    display: flex;
+    justify-content: space-between;
+    padding: 31px 0 61px;
+}
